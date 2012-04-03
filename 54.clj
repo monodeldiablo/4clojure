@@ -1,11 +1,10 @@
 (def __
   (fn [x s]
-    (loop [p (take x s)
-           n (drop x s)
+    (loop [n s
            r '()]
-      (if-not (= x (count p))
+      (if (> x (count n))
         (reverse r)
-        (recur (take x n) (drop x n) (conj r p)))))
+        (recur (drop x n) (conj r (take x n))))))
   )
 
 (= (__ 3 (range 9)) '((0 1 2) (3 4 5) (6 7 8)))
