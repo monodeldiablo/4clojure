@@ -16,6 +16,11 @@ But no longer.
 This shall be a versioned, offline repository for 4clojure problems. Sweet,
 blissful 4clojure problems...
 
+Follow me, dear reader, if you dare. Take my hand and I shall lead you into the
+deepest recesses of the mind.
+
+http://www.4clojure.com/user/monodeldiablo
+
 ## License
 
 Copyright (C) 2012 Brian Davis
